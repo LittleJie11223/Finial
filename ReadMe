@@ -21,7 +21,7 @@ pip install translate
 
 pip install BeautifulSoup
 
-
+The python version is 3.6, and all python package codes must be installed to run normally.
 
 The code consists of 6 chapters in total:
 
