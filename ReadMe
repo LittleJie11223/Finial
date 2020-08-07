@@ -23,6 +23,8 @@ pip install bs4
 
 The python version is 3.6, and all python package codes must be installed to run normally.
 
+The data web is https://maynoothuniversity-my.sharepoint.com/:u:/r/personal/deng_jie_2018_mumail_ie/Documents/mstx.rar?csf=1&web=1&e=cG2xkE
+
 The code consists of 6 chapters in total:
 
 Chapter 1 Data Crawler
