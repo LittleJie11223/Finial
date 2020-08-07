@@ -1,0 +1,34 @@
+# program
+generate the Chinese recipe
+
+Install the package first
+
+pip install numpy
+
+pip install tensorflow==2.1.0
+
+pip install jieba
+
+pip install re
+
+pip install json
+
+pip install matplotlib
+
+pip install --upgrade gensim
+
+pip install translate
+
+pip install BeautifulSoup
+
+
+
+The code consists of 6 chapters in total:
+
+Chapter 1 Data Crawler
+
+Chapter 4 The initial deep network for recipe generation and fitting
+
+Chapter 5 Improvement and Optimization of Deep Network
+
+Chapter 6 100 random deep network tests
