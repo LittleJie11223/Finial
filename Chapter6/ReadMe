@@ -1,0 +1,27 @@
+In this folder are 3 random test codes:
+
+The first is under the folder
+1. MyDataAll1.py: This file is initially run, and
+then the trained Word2Vec is saved as a MCNNMM_Ingredient_Word2vec file,
+ so that the remaining files can directly use the trained model.
+2. RTMCNNData.py: Used to load the word2vec model that has been trained,
+and then process and clean all the training data and then transfer the data like a deep network.
+3. MCNNMM_Ingredient_Word2vec is a Word2Vec model trained by MyDataAll1.py.
+
+In folder 6_1:
+1. MCNNMMRT.txt: Show the results of 100 random tests
+2. myMCNNMM_model.h5: The multi-layer CNN deep network model that has been trained.
+3. RandomTestMCNNMM.py: The deep network code for 100 sets of random tests, where the training data is loaded in the RTMCNNData.py file.
+ The loaded depth model is trained by TestAll1.py that has been trained.
+
+In folder 6_2:
+1.myCNNLSTM_model.h5: The trained multi-layer CNN and LSTM hybrid model file.
+2. TestCNNLSTM.py: It is a deep network file used to test the effect of multi-layer CNN and LSTM hybrid model training.
+The training results are not ideal. So there is no random test situation and result.
+
+In folder 6_3:
+1. Mixresult.txt: This is the 100 random test training result file of the multi-layer CNN,
+LSTM and fully-linked layer hybrid model.
+2. myCLD_model.h5: a well-trained multi-layer CNN, LSTM and fully linked layer hybrid model deep network.
+3. RandomTestCLD.py: 100 sets of programs for randomly testing mixed models.
+4. RTCLD.py: The program used to train the mixed model and save the trained model as myCLD_model.h5.
